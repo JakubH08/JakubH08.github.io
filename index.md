@@ -1,15 +1,34 @@
-Jakub Hajduk
+JAKUB HAJDUK
 Mechanical Engineering Portfolio
 
-Engineering student | CAD | Product Design | Prototyping
+Engineering Student
+CAD • Product Design • Prototyping
 
-Projects
+────────────────────────
 
-Adaptive Guitar Pick
-Future engineering projects
+PROJECTS
 
-About
-Engineering background, interests and skills
+[ Adaptive Guitar Pick ]
+Assistive engineering design
+CAD | Product Design | Engineering Drawings
 
-Skills
-Autodesk Inventor · Engineering Drawing · Electronics · Microcontrollers · Technical Design
+[ Future Project ]
+Coming soon
+
+────────────────────────
+
+ABOUT ME
+
+Engineering student interested in mechanical design,
+CAD, manufacturing and practical problem solving.
+
+────────────────────────
+
+SKILLS
+
+Autodesk Inventor
+Engineering Drawing
+Product Design
+Electronics
+Microcontrollers
+Technical Design
