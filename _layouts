@@ -1,1 +1,55 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
 
+    {% seo %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <style>
+      .sidebar-links {
+        margin-top: 20px;
+      }
+
+      .sidebar-links a {
+        display: block;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <header>
+        <h1>{{ site.title }}</h1>
+
+        {% if site.description %}
+          <p>{{ site.description }}</p>
+        {% endif %}
+
+        <div class="sidebar-links">
+          <a href="https://github.com/YOURUSERNAME" target="_blank">
+            GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/YOURUSERNAME/" target="_blank">
+            LinkedIn
+          </a>
+
+          <a href="mailto:jhajduk0118@gmail.com">
+            Email
+          </a>
+        </div>
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+    </div>
+  </body>
+</html>
