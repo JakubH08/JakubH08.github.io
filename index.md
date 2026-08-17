@@ -1,14 +1,15 @@
----
-title: Home
-layout: default
----
+Jakub Hajduk
+Mechanical Engineering Portfolio
 
-# Jakub Hajduk
+Engineering student | CAD | Product Design | Prototyping
 
-## Mechanical Engineering Portfolio
+Projects
 
-I'm an engineering student starting the Engineering and Physical Sciences Foundation Year at the University of Nottingham, with the goal of progressing into Mechanical Engineering.
+Adaptive Guitar Pick
+Future engineering projects
 
-This portfolio documents my engineering projects, CAD work, design process, and things I'm building and learning along the way.
+About
+Engineering background, interests and skills
 
-[About Me](/about) | [Projects](/projects)
+Skills
+Autodesk Inventor · Engineering Drawing · Electronics · Microcontrollers · Technical Design
