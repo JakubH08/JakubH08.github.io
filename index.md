@@ -1,6 +1,3 @@
-JAKUB HAJDUK
-Mechanical Engineering Portfolio
-
 Engineering Student
 CAD • Product Design • Prototyping
 
