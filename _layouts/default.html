@@ -2,41 +2,31 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-
     {% seo %}
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-
-    <style>
-      .sidebar-links {
-        margin-top: 20px;
-      }
-
-      .sidebar-links a {
-        display: block;
-        margin: 10px 0;
-      }
-    </style>
   </head>
 
   <body>
     <div class="wrapper">
 
       <header>
-        <h1>{{ site.title }}</h1>
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
 
         {% if site.description %}
           <p>{{ site.description }}</p>
         {% endif %}
 
         <div class="sidebar-links">
-          <a href="https://github.com/YOURUSERNAME" target="_blank">
+          <a href="https://github.com/jakubh08" target="_blank">
             GitHub
           </a>
 
-          <a href="https://www.linkedin.com/in/YOURUSERNAME/" target="_blank">
+          <a href="https://www.linkedin.com/in/jakub-hajduk-uk/" target="_blank">
             LinkedIn
           </a>
 
@@ -49,6 +39,16 @@
       <section>
         {{ content }}
       </section>
+
+      <footer>
+        {% if site.github.is_project_page %}
+          <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+          <p>View my <a href="{{ site.github.owner_url }}">GitHub profile</a></p>
+        {% endif %}
+      </footer>
 
     </div>
   </body>
