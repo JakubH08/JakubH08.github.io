@@ -8,12 +8,7 @@ CAD • Product Design • Prototyping
 
 PROJECTS
 
-[ Adaptive Guitar Pick ]
-Assistive engineering design
-CAD | Product Design | Engineering Drawings
-
-[ Future Project ]
-Coming soon
+Personal engineering projects currently in development.
 
 ────────────────────────
 
